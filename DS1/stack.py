@@ -42,4 +42,16 @@ print(stack.isEmpty())
 try:
 	stack.pop()
 except:
-	print('Cannot pop now as it is empty')
+	print('Cannot pop now as it is empty\n')
+
+print("""*Stack*
+
+- Stack is a LIFO based data structure. (Last In First Out)
+
+- Time Complexity: For the array-based implementation of a stack, the push and pop operations take constant time, i.e. O(1).
+
+Applications:
+- To reverse a word
+- The browser Back button uses this data structure to keep track of a tab's history
+- In compilers - Compilers use the stack to calculate the value of expressions like 2 + 4 / 5 * (7 - 9).
+""")
